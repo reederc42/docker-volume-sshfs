@@ -11,6 +11,13 @@
         "value"
       ],
       "value": "0"
+    },
+    {
+      "name": "NEW_VARIABLE",
+      "settable": [
+        "value"
+      ],
+      "value": "lorem"
     }
   ],
   "interface": {
