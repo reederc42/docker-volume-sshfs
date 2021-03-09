@@ -276,6 +276,8 @@ func main() {
 		logrus.SetLevel(logrus.DebugLevel)
 	}
 
+	logrus.Infof("Environment: %v", os.Environ())
+
 	d, err := newSshfsDriver("/mnt")
 	if err != nil {
 		log.Fatal(err)
